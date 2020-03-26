@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c:TwoButtonPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              x:Class="HelloTizen.MainPage">
+    <c:TwoButtonPage.Content>
+        <StackLayout 
+            VerticalOptions="CenterAndExpand" 
+            HorizontalOptions="CenterAndExpand">
+        <Label Text="Some content" />
+        </StackLayout>
+    </c:TwoButtonPage.Content>
+    <c:TwoButtonPage.FirstButton>
+        <MenuItem IconImageSource="tw_ic_popup_btn_check.png" />
+    </c:TwoButtonPage.FirstButton>
+    <c:TwoButtonPage.SecondButton>
+        <MenuItem IconImageSource="tw_ic_popup_btn_delete.png" />
+    </c:TwoButtonPage.SecondButton>
+</c:TwoButtonPage>

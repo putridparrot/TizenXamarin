@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              x:Class="HelloTizen.MainPage">
+    <!-- Sample copied from https://samsung.github.io/Tizen.CircularUI/guide/CircleStackLayout.html -->
+    <c:CirclePage.Content>
+        <ScrollView>	
+            <c:CircleStackLayout Orientation="Horizontal">
+                <BoxView BackgroundColor="Red" />
+                <BoxView BackgroundColor="Orange" />
+                <BoxView BackgroundColor="Yellow" />
+                <BoxView BackgroundColor="Green" />
+                <BoxView BackgroundColor="Blue" />
+                <BoxView BackgroundColor="Navy" />
+                <BoxView BackgroundColor="Purple" />
+                <BoxView BackgroundColor="Red" />
+                <BoxView BackgroundColor="Orange" />
+                <BoxView BackgroundColor="Yellow" />
+                <BoxView BackgroundColor="Green" />
+                <BoxView BackgroundColor="Blue" />
+                <BoxView BackgroundColor="Navy" />
+                <BoxView BackgroundColor="Purple" />
+            </c:CircleStackLayout>
+        </ScrollView>
+    </c:CirclePage.Content>
+</c:CirclePage>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              x:Class="HelloTizen.MainPage">
+    <c:CirclePage.Content>
+        <StackLayout Orientation="Vertical" VerticalOptions="Center">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <c:Radio GroupName="YesNo" 
+                         IsSelected="True"/>
+                <Label VerticalOptions="Center">Yes</Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+                <c:Radio GroupName="YesNo" />
+                <Label  VerticalOptions="Center">No</Label>
+            </StackLayout>
+        </StackLayout>
+    </c:CirclePage.Content>
+</c:CirclePage>

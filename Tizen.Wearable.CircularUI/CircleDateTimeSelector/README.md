@@ -1,0 +1,1 @@
+Note: On the emulator the "Date" mode didn't display correctly, but looked fine on the device

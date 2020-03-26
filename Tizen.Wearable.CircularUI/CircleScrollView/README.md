@@ -1,0 +1,1 @@
+The example simply populate the scroll view labels, obviously we can use images or whatever else we want.

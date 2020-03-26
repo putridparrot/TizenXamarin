@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c:CirclePage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              RotaryFocusObject="{x:Reference ScrollView}"
+              x:Class="HelloTizen.MainPage">
+    <c:CirclePage.Content>
+        <StackLayout VerticalOptions="Center">
+            <c:CircleScrollView x:Name="ScrollView">
+                <StackLayout 
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="FillAndExpand">
+                    <Label HorizontalOptions="Center">1</Label>
+                    <Label HorizontalOptions="Center">2</Label>
+                    <Label HorizontalOptions="Center">3</Label>
+                    <Label HorizontalOptions="Center">4</Label>
+                    <Label HorizontalOptions="Center">5</Label>
+                    <Label HorizontalOptions="Center">6</Label>
+                    <Label HorizontalOptions="Center">7</Label>
+                    <Label HorizontalOptions="Center">8</Label>
+                    <Label HorizontalOptions="Center">9</Label>
+                    <Label HorizontalOptions="Center">10</Label>
+                </StackLayout>
+            </c:CircleScrollView>
+        </StackLayout>
+    </c:CirclePage.Content>
+</c:CirclePage>

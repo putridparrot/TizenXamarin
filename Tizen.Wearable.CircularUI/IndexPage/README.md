@@ -1,0 +1,1 @@
+Similar to a tabbed page, the index page displays dot at the top to indicate the number of content items, swiping left/right changes the displayed content.

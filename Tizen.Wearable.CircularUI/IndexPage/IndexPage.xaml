@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<c:IndexPage xmlns="http://xamarin.com/schemas/2014/forms"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+              xmlns:c="clr-namespace:Tizen.Wearable.CircularUI.Forms;assembly=Tizen.Wearable.CircularUI.Forms"
+              x:Class="HelloTizen.MainPage">
+    <!-- Similar to a tabbed page -->
+    <ContentPage>
+        <StackLayout>
+            <Label VerticalOptions="FillAndExpand" 
+                   VerticalTextAlignment="Center" 
+                   HorizontalTextAlignment="Center">Page 1</Label>
+            <Label HorizontalOptions="CenterAndExpand" Text="P1" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label VerticalOptions="FillAndExpand" 
+                   VerticalTextAlignment="Center" 
+                   HorizontalTextAlignment="Center">Page 2</Label>
+            <Label HorizontalOptions="CenterAndExpand" Text="P2" />
+        </StackLayout>
+    </ContentPage>
+    <ContentPage>
+        <StackLayout>
+            <Label VerticalOptions="FillAndExpand" 
+                   VerticalTextAlignment="Center" 
+                   HorizontalTextAlignment="Center">Page 3</Label>
+            <Label HorizontalOptions="CenterAndExpand" Text="P3" />
+        </StackLayout>
+    </ContentPage>
+</c:IndexPage>
